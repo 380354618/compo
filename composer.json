@@ -1,0 +1,21 @@
+{
+    "name": "compo/compo",
+    "description": "描述",
+    "type": "ect",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mais",
+            "email": "380354618@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Compo\\Starfish\\": "src/Compo/Starfish"
+        }
+    }
+}
